@@ -44,7 +44,7 @@ I am a B.Tech graduate in Computer Science and Engineering with a minor degree i
 
 ## 🌐 Live Portfolio
 
-🔗 https://tejachaganti.github.io/portfolio
+🔗 https://tejachaganti.github.io-portfolio
 
 ## 📫 Contact
 
