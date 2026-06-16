@@ -111,9 +111,9 @@ Full-stack personal finance management platform featuring:
 * JWT Authentication
 * REST APIs
 
-**Tech Stack:** Node.js, Express.js, MongoDB Atlas, JWT, Render
+**Tech Stack:** Node.js, Express.js, MongoDB Atlas, JWT, Render,Vercel
 
-**GitHub:** https://github.com/Tejachaganti/financeflow-backend
+**Live Demo:** https://financeflow-mauve.vercel.app
 
 ---
 
