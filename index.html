@@ -332,24 +332,26 @@
     }
 
     /* ── PROJECTS ── */
-   .projects-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:28px;
-    align-items:stretch;
-}
+    .projects-grid {
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0, 1fr));
+      gap:30px;
+      align-items:stretch;
+      width:100%;
+    }
 
     .project-card {
-      background:var(--surface2); border:1px solid var(--border2);
-      border-radius:18px; padding:32px; position:relative; overflow:hidden;
-      transition:all 0.35s; display:flex; flex-direction:column; justify-content:space-between; min-height:760px;
+      background:linear-gradient(145deg, rgba(255,255,255,0.035), rgba(124,109,250,0.025)), var(--surface2);
+      border:1px solid var(--border2); border-radius:22px; padding:28px;
+      position:relative; overflow:hidden; display:flex; flex-direction:column;
+      height:100%; min-width:0; transition:all 0.35s;
     }
 
     .project-card::after {
   content:'';
   position:absolute;
   inset:0;
-  border-radius:18px;
+  border-radius:22px;
   background:linear-gradient(
     135deg,
     rgba(124,109,250,0.06) 0%,
@@ -378,11 +380,11 @@
       border:1px solid rgba(124,109,250,0.25);
     }
 
-    .project-card h3 { font-size:1.1rem; font-weight:700; margin-bottom:10px; color:var(--text); }
-    .project-card p { font-size:0.88rem; color:var(--muted2); line-height:1.7; flex:1; }
+    .project-card h3 { font-size:1.1rem; font-weight:700; margin:0 0 10px; color:var(--text); }
+    .project-card p { font-size:0.88rem; color:var(--muted2); line-height:1.7; margin:0; }
 
     .project-highlights {
-      margin-top:14px; padding-top:14px;
+      margin-top:20px; padding-top:18px;
       border-top:1px solid var(--border2);
     }
     .project-highlight {
@@ -391,7 +393,7 @@
     }
     .project-highlight::before { content:'›'; color:var(--accent); font-size:1rem; }
 
-    .project-tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .project-tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
     .project-tag {
       font-size:0.7rem; font-family:'JetBrains Mono',monospace;
       color:var(--accent); background:rgba(124,109,250,0.08);
@@ -404,17 +406,21 @@
   display:inline-flex;
   align-items:center;
   gap:6px;
-  margin-top:16px;
+  margin-top:0;
+  padding:10px 14px;
+  border:1px solid rgba(124,109,250,0.28);
+  border-radius:9px;
+  background:rgba(124,109,250,0.06);
   font-size:0.8rem;
   color:var(--accent);
   text-decoration:none;
   font-family:'JetBrains Mono',monospace;
   }
-    .project-link:hover { gap:10px; }
+    .project-link:hover { gap:10px; background:rgba(124,109,250,0.12); }
   .project-links{
     margin-top:auto;
     display:flex;
-    flex-direction:column;
+    flex-wrap:wrap;
     gap:12px;
 }
     /* ── CERTIFICATIONS ── */
@@ -528,9 +534,10 @@
     }
 
     /* ── MOBILE ── */
-    @media(max-width:992px){
+@media(max-width:992px){
 .projects-grid{
-    grid-template-columns:1fr;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:24px;
 }
 
       nav { padding:16px 24px; }
@@ -540,6 +547,11 @@
       .about-grid { grid-template-columns:1fr; }
       footer { padding:24px; justify-content:center; }
       h1 { letter-spacing:-1.5px; }
+    }
+
+    @media(max-width:700px){
+      .projects-grid { grid-template-columns:1fr; gap:20px; }
+      .project-card { padding:24px; }
     }
   </style>
 </head>
@@ -874,6 +886,8 @@
       </a>
       </div>
 
+    </div>
+
 <!-- CareerForge AI -->
     <div class="project-card" style="border-color:rgba(52,211,153,0.35);">
   <div class="project-card-top">
@@ -919,6 +933,7 @@
     <span class="project-tag">Render</span>
   </div>
 
+  <div class="project-links">
   <a
     href="https://careerforge-ai-one.vercel.app"
     target="_blank"
@@ -934,6 +949,7 @@
   >
     💻 GitHub
   </a>
+  </div>
 </div>
 
 
@@ -965,6 +981,7 @@
         <span class="project-tag">ETL</span>
       </div>
 
+      <div class="project-links">
       <a
         href="https://github.com/Tejachaganti/IPL-Match-Data-Analysis"
         target="_blank"
@@ -972,8 +989,10 @@
       >
         💻 GitHub
       </a>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
 <!-- CERTIFICATIONS -->
 <section id="certifications">
