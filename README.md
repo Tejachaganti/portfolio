@@ -1,261 +1,116 @@
-# 🚀 Teja Chaganti | Developer Portfolio
+# ⚡ Teja Chaganti — Software Engineering Portfolio
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React.js-Frontend-61DAFB?logo=react">
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js">
-  <img src="https://img.shields.io/badge/AI-Generative-blueviolet">
-  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb">
-  <img src="https://img.shields.io/badge/Status-Live-success">
+  <img src="https://img.shields.io/badge/Software--Developer-3B82F6?style=for-the-badge&logo=codeforces&logoColor=white" alt="Software Developer">
+  <img src="https://img.shields.io/badge/Full--Stack-Developer-60A5FA?style=for-the-badge&logo=react&logoColor=white" alt="Full Stack">
+  <img src="https://img.shields.io/badge/B.Tech-CGPA%208.47-10B981?style=for-the-badge" alt="CGPA">
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-10B981?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center">
-A modern developer portfolio showcasing my software engineering journey, projects, internships, certifications, technical skills, and experience in Full-Stack Development, Artificial Intelligence, and Cloud Technologies.
+  <strong>Live Portfolio:</strong> <a href="https://tejachaganti.github.io/portfolio/">https://tejachaganti.github.io/portfolio/</a>
 </p>
 
 ---
 
-# 🌐 Live Portfolio
+## 👨‍💻 Professional Identity & Target Roles
 
-### 🔗 Portfolio Website
-
-https://tejachaganti.github.io/portfolio/
-
----
-
-# 👨‍💻 About Me
-
-I'm **Teja Chaganti**, a B.Tech Computer Science & Engineering graduate (Minor: Electronics & Communication Engineering) from Srinivasa Institute of Engineering and Technology.
-
-I enjoy building scalable, AI-powered web applications that solve real-world problems using modern technologies. My interests include:
-
-- 💻 Full-Stack Development
-- 🤖 Artificial Intelligence & Generative AI
-- 📊 Data Analytics & Machine Learning
-- ☁ Cloud Computing
-- 🔒 Secure Web Application Development
+- **Name:** Teja Chaganti (Chaganti Naga Veera Satya Teja)
+- **Primary Role:** Software Developer / Software Engineer
+- **Secondary Role:** Full-Stack Developer
+- **Tertiary Role:** AI Developer / Generative AI Developer
+- **Education:** B.Tech in Computer Science & Engineering (Minor in Electronics & Communication Engineering), Srinivasa Institute of Engineering & Technology (Graduated 2026, **CGPA: 8.47 / 10**)
+- **Location:** Amalapuram, Andhra Pradesh, India
+- **Target Opportunities:** Software Developer, Software Engineer, Full-Stack Developer, Backend Developer
 
 ---
 
-# 🛠 Technical Skills
+## 🚀 Engineered Software Projects
 
-### Programming Languages
+### 01. [CareerForge AI (Full-Stack Career Platform)](https://careerforge-ai-one.vercel.app)
+- **Live Demo:** [careerforge-ai-one.vercel.app](https://careerforge-ai-one.vercel.app)
+- **Repository:** [github.com/Tejachaganti/CareerForge-AI](https://github.com/Tejachaganti/CareerForge-AI)
+- **Stack:** React.js, Node.js, Express.js, MongoDB Atlas, REST APIs, JWT Authentication, Adzuna API, OpenRouter AI, Tailwind CSS
+- **Engineering Highlights:** Built a complete full-stack web application featuring resume semantic parsing, ATS compatibility score calculation, external live job querying via Adzuna API, algorithmic skill gap detection, interview simulation, and MongoDB application tracking.
 
-- Python
-- Java
-- JavaScript
-- C
-- C++
-- HTML5
-- CSS3
+### 02. [QuizVerse (Real-Time Multiplayer Platform)](https://quizverse-live-gamma.vercel.app/)
+- **Live Demo:** [quizverse-live-gamma.vercel.app](https://quizverse-live-gamma.vercel.app/)
+- **Repository:** [github.com/Tejachaganti/quizverse-live](https://github.com/Tejachaganti/quizverse-live)
+- **Stack:** React.js, Node.js, Express.js, Socket.io / WebSockets, Tailwind CSS, State Engine
+- **Engineering Highlights:** Engineered a real-time multiplayer trivia platform featuring 6-character room codes, server-authoritative timer synchronization across participants, event-driven WebSocket communication, dynamic scoring calculations, and dynamic live leaderboard rank deltas.
 
-### Frontend
+### 03. [FinanceFlow (Full-Stack Personal Finance Platform)](https://financeflow-mauve.vercel.app)
+- **Live Demo:** [financeflow-mauve.vercel.app](https://financeflow-mauve.vercel.app)
+- **Repository:** [github.com/Tejachaganti/FinanceFlow](https://github.com/Tejachaganti/FinanceFlow)
+- **Stack:** React.js, Node.js, Express.js, MongoDB Atlas, Google Gemini AI, Resend API, JWT, Tailwind CSS, Vite
+- **Engineering Highlights:** Full-stack wealth and expense management application with JWT authentication, bcrypt encryption, browser Web Speech API voice expense recording, category budget planning, interactive analytics, and automated PDF/CSV report exports.
 
-- React.js
-- Tailwind CSS
-- Vite
-- React Router
-- Axios
+### 04. [AI-CRM-HCP (Healthcare CRM & Agentic Backend)](https://github.com/Tejachaganti/AI-CRM-HCP)
+- **Repository:** [github.com/Tejachaganti/AI-CRM-HCP](https://github.com/Tejachaganti/AI-CRM-HCP)
+- **Stack:** FastAPI, LangGraph, Groq LLM, React.js, Material UI, Redux Toolkit, SQLAlchemy, MySQL, Swagger
+- **Engineering Highlights:** Healthcare CRM platform for pharmaceutical field representatives. Uses a multi-step LangGraph agent state graph to parse unstructured visit notes into structured relational schemas (doctor, specialty, sentiment, discussed products, follow-ups) with an asynchronous FastAPI backend and interactive Swagger documentation.
 
-### Backend
+### 05. [AI Spend Audit (Developer FinOps & Token Cost Auditor)](https://github.com/Tejachaganti/AI-Spend-Audit)
+- **Repository:** [github.com/Tejachaganti/AI-Spend-Audit](https://github.com/Tejachaganti/AI-Spend-Audit)
+- **Stack:** Python, Node.js, REST APIs, FinOps Logic, Data Visualization
+- **Engineering Highlights:** Developer observability utility tracking token consumption velocities, detecting recursive loop anomalies, attribution across multi-model pricing tiers, and providing budget threshold warnings.
 
-- Node.js
-- Express.js
-- REST APIs
-- JWT Authentication
-
-### Databases & Cloud
-
-- MongoDB Atlas
-- MySQL
-- Google Cloud
-- AWS
-- Vercel
-- Render
-
-### AI & Data
-
-- Generative AI
-- Machine Learning
-- Large Language Models (LLMs)
-- Prompt Engineering
-- Google Gemini AI
-- Pandas
-- NumPy
-- Plotly
-- Streamlit
-
-### Tools
-
-- Git & GitHub
-- VS Code
-- Android Studio
-- Postman
+### 06. [IPL Match Data Analysis Dashboard](https://github.com/Tejachaganti/IPL-Match-Data-Analysis)
+- **Repository:** [github.com/Tejachaganti/IPL-Match-Data-Analysis](https://github.com/Tejachaganti/IPL-Match-Data-Analysis)
+- **Stack:** Python, Pandas, NumPy, Plotly, Streamlit, SQL
+- **Engineering Highlights:** Longitudinal exploratory data analysis on historical IPL tournament records. Models team win percentages, toss impact correlation, venue stadium biases, and player metrics through interactive Streamlit and Plotly dashboards.
 
 ---
 
-# 💼 Internship Experience
+## 🛠 Technical Skills Matrix
 
-### 🤖 AI & Machine Learning Intern
-
-**Blackbucks Education Pvt. Ltd.**
-
-- Worked on machine learning concepts, data preprocessing, and model evaluation.
-- Completed a 16-week project-based AI & ML internship.
-
----
-
-### ✨ Generative AI Virtual Intern
-
-**Google Cloud × EduSkills**
-
-- Learned Generative AI, Prompt Engineering, Responsible AI, and Google Cloud AI technologies.
+| Discipline | Technologies & Tools |
+| :--- | :--- |
+| **Programming** | Java, Python, JavaScript (ES6+), C, C++, SQL |
+| **Software Engineering Fundamentals** | Data Structures & Algorithms, Object-Oriented Programming (OOP), DBMS, Problem Solving, SDLC, API Development & Testing |
+| **Backend & Distributed Systems** | Node.js, Express.js, FastAPI, REST APIs, JWT Authentication, Microservices Fundamentals, Spring Boot |
+| **Frontend Architecture** | HTML5, CSS3, React.js, Tailwind CSS, Vite, Material UI, Redux Toolkit |
+| **Databases** | MySQL, MongoDB Atlas, PostgreSQL, SQLAlchemy ORM |
+| **AI Development** | Generative AI, Large Language Models (LLMs), LangGraph, OpenRouter, Google Gemini, Groq, Prompt Engineering, Machine Learning Fundamentals |
+| **Tools & Platforms** | Git, GitHub, VS Code, Linux, Android Studio, Vercel, Render, Postman |
 
 ---
 
-### ☁ Data Engineering Virtual Intern
+## 💼 Verified Professional Experience & Internships
 
-**AWS Academy × EduSkills**
-
-- Gained practical knowledge of ETL pipelines, AWS services, and cloud-based data engineering.
-
----
-
-### 📱 Android Developer Virtual Intern
-
-**Google for Developers × EduSkills**
-
-- Developed Android applications using Java and Android Studio.
+1. **AI & Machine Learning Intern** — *Blackbucks Education Pvt. Ltd.* (Dec 2025 – Apr 2026)
+   - Completed a 16-week project-based AI/ML internship in Python. Handled data preprocessing pipelines, exploratory modeling, feature engineering, and model evaluation metrics on real-world datasets.
+2. **Generative AI Virtual Intern** — *Google Cloud / EduSkills* (Apr 2025 – Jun 2025)
+   - Completed a virtual internship program covering Generative AI fundamentals, prompt engineering, Large Language Models, and Google Cloud AI technologies.
+3. **Data Engineering Virtual Intern** — *AWS Academy / EduSkills* (Jan 2025 – Mar 2025)
+   - Studied foundational cloud data engineering, AWS services, ETL data pipelines, and cloud storage solutions.
+4. **Android Developer Virtual Intern** — *Google for Developers / EduSkills* (Jul 2024 – Sep 2024)
+   - Built native Android applications using Java and Android Studio, mastering mobile architecture and SDK lifecycles.
 
 ---
 
-# 🚀 Featured Projects
+## 🎓 Credentials & Certifications
 
-## 💰 FinanceFlow (Flagship Project)
-
-An AI-powered Personal Finance Management Platform that helps users manage expenses, budgets, financial analytics, reports, and AI-powered financial insights.
-
-### Highlights
-
-- Secure JWT Authentication
-- AI Financial Copilot (Google Gemini)
-- Expense & Budget Management
-- Voice Expense Recording
-- Analytics Dashboard
-- PDF & CSV Reports
-- Notification Center
-- Responsive Modern UI
-
-**Tech Stack**
-
-React.js • Node.js • Express.js • MongoDB Atlas • Google Gemini AI • JWT • Resend API • Tailwind CSS • Vercel • Render
-
-**🌐 Live Demo**
-
-https://financeflow-mauve.vercel.app
-
-**💻 GitHub**
-
-https://github.com/Tejachaganti/FinanceFlow
+- **Artificial Intelligence Training** — ICT Academy (Dec 2025 – Mar 2026)
+- **Data Science Using Python** — SWAYAM / Aligarh Muslim University (2024)
+- **Java Programming Fundamentals** — edX / Universidad Galileo (2024)
+- **AI & Sustainability** — IBM SkillsBuild
+- **Google Android Developer Internship** — EduSkills
+- **AWS Data Engineering Internship** — EduSkills
+- **Generative AI Virtual Internship** — Google Cloud
 
 ---
 
-## 🚀 CareerForge AI (Signature Project)
+## 📬 Contact Coordinates
 
-An AI-powered Career Copilot helping students and job seekers improve their employability.
-
-### Highlights
-
-- Resume Analyzer
-- ATS Score Checker
-- Job Search Integration
-- Job Match Analysis
-- Skill Gap Detection
-- AI Career Guidance
-- Career Roadmap Generator
-- Interview Preparation
-- Job Tracker
-- Analytics Dashboard
-
-**Tech Stack**
-
-React.js • Node.js • Express.js • MongoDB Atlas • OpenRouter AI • Adzuna API • JWT • Tailwind CSS • Vercel • Render
-
-**🌐 Live Demo**
-
-https://careerforge-ai-one.vercel.app
-
-**💻 GitHub**
-
-https://github.com/Tejachaganti/CareerForge-AI
-
----
-
-## 🏏 IPL Match Data Analysis Dashboard
-
-Interactive dashboard for analysing IPL match statistics using historical datasets.
-
-### Highlights
-
-- Team Performance Analysis
-- Toss Impact Analysis
-- Venue Insights
-- Player Statistics
-- Season-wise Trends
-- Interactive Visualizations
-
-**Tech Stack**
-
-Python • Pandas • NumPy • Plotly • Streamlit
-
-**💻 GitHub**
-
-https://github.com/Tejachaganti/IPL-Match-Data-Analysis
-
----
-
-# 🎓 Certifications
-
-- Artificial Intelligence Training – ICT Academy
-- Data Science Using Python – SWAYAM
-- Java Programming Fundamentals – edX
-- Google Android Developer Virtual Internship
-- AWS Data Engineering Virtual Internship
-- Generative AI Virtual Internship
-
----
-
-# 📫 Contact
-
-📧 Email
-
-chagantinvsteja@gmail.com
-
-💻 GitHub
-
-https://github.com/tejachaganti
-
-💼 LinkedIn
-
-https://www.linkedin.com/in/chaganti-naga-veera-satya-teja-74b3b7327
-
-🌐 Portfolio
-
-https://tejachaganti.github.io/portfolio/
-
----
-
-# 💼 Open to Opportunities
-
-I'm actively seeking full-time opportunities as:
-
-- Software Engineer
-- Full-Stack Developer
-- Backend Developer
-- AI/ML Engineer
-- Data Engineer
+- **Email:** [chagantinvsteja@gmail.com](mailto:chagantinvsteja@gmail.com)
+- **Phone:** [+91 7382127521](tel:+917382127521)
+- **GitHub:** [https://github.com/Tejachaganti](https://github.com/Tejachaganti)
+- **LinkedIn:** [https://www.linkedin.com/in/chaganti-naga-veera-satya-teja-74b3b7327](https://www.linkedin.com/in/chaganti-naga-veera-satya-teja-74b3b7327)
+- **Portfolio Website:** [https://tejachaganti.github.io/portfolio/](https://tejachaganti.github.io/portfolio/)
 
 ---
 
 <p align="center">
-Made with ❤️ by <strong>Chaganti Naga Veera Satya Teja</strong>
+  <em>Designed and engineered by Teja Chaganti.</em>
 </p>
